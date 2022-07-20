@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#searchWrapper {
+    position: relative;
+}
+
+#searchBar {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#pplList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: .25rem;
+}
+
+.character {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: left;
+}
